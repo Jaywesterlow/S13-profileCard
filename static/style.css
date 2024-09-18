@@ -3,7 +3,7 @@
 :root {
 
   /* Colors */
-  --bg-color: #265893;
+  --bg-color: #0c0c0c;
   --color-white: #fff;
   --color-black: #000;
   --yellow-primary: #FFDA27;
@@ -19,4 +19,12 @@
 
   /* shadows */
   --shadow-regular: 0px 0px 15px 7.5px rgba(0,0,0,0.25);
+}
+
+html {
+  height: 100dvh;
+}
+
+body {
+  background-color: var(--bg-color);
 }
